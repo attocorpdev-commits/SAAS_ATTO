@@ -11,8 +11,7 @@ import {
     X,
     ChevronRight,
     ChevronLeft,
-    Play,
-    RefreshCw
+    Play
 } from 'lucide-react';
 import axios from 'axios';
 

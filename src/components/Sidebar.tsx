@@ -9,8 +9,7 @@ import {
     FileText,
     Menu,
     X,
-    LogOut,
-    ChevronRight
+    LogOut
 } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext';
 import { clsx, type ClassValue } from 'clsx';
