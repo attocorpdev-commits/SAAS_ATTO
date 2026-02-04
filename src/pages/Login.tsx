@@ -65,14 +65,12 @@ export const Login: React.FC = () => {
                             <img
                                 src={logoUrl}
                                 alt="ATTO Logo"
-                                className="relative w-56 h-56 mx-auto object-contain filter brightness-110 drop-shadow-[0_0_30px_rgba(59,130,246,0.5)] transition-transform duration-700 hover:scale-105"
+                                className="relative w-[300px] h-[300px] mx-auto object-contain filter brightness-110 drop-shadow-[0_0_30px_rgba(59,130,246,0.5)] transition-transform duration-700 hover:scale-105"
                             />
                         </div>
                     </div>
 
-                    <h1 className="text-7xl lg:text-8xl font-black text-white tracking-tighter leading-[0.9] mb-8 select-none">
-                        ATTO<br /><span className="text-primary italic font-black">CORP</span>
-                    </h1>
+
 
                     <div className="space-y-8 flex flex-col items-center">
                         <p className="text-xl text-slate-400 font-medium max-w-sm leading-relaxed">
@@ -97,7 +95,7 @@ export const Login: React.FC = () => {
                 </div>
 
                 <div className="absolute bottom-10 left-12 text-[10px] font-black text-slate-500 uppercase tracking-[0.5em]">
-                    Atto Corp Systems &bull; 2.0.4
+                    Systems &bull; 2.0.4
                 </div>
             </div>
 
@@ -106,7 +104,7 @@ export const Login: React.FC = () => {
                 {/* Mobile-only logo */}
                 <div className="lg:hidden absolute top-12 left-1/2 -translate-x-1/2 text-center w-full">
                     <img src={logoUrl} alt="ATTO" className="w-20 h-20 mx-auto mb-4 filter drop-shadow-[0_0_15px_rgba(59,130,246,0.5)]" />
-                    <h2 className="text-2xl font-black text-white tracking-tighter">ATTO<span className="text-primary italic">CORP</span></h2>
+
                 </div>
 
                 <div className="w-full max-w-md animate-fade-in">

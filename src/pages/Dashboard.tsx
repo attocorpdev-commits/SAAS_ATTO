@@ -133,7 +133,7 @@ const Dashboard: React.FC = () => {
             <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
                 <div>
                     <h2 className="text-3xl font-black text-white tracking-tighter uppercase">Intelligence <span className="text-primary italic">Center</span></h2>
-                    <p className="text-slate-500 font-bold text-xs uppercase tracking-[0.2em] mt-1">ATTO CORP Outbound Control Panel</p>
+                    <p className="text-slate-500 font-bold text-xs uppercase tracking-[0.2em] mt-1">Outbound Control Panel</p>
                 </div>
                 <div className="flex items-center gap-2 px-4 py-2 bg-surface border border-border rounded-xl text-xs font-bold text-slate-400">
                     <div className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />

@@ -63,20 +63,14 @@ export const Sidebar: React.FC = () => {
                 <div className="flex flex-col h-full">
                     {/* Logo */}
                     <div className="p-6 border-b border-border">
-                        <Link to="/" className="flex items-center gap-3 group">
-                            <div className="relative w-10 h-10 flex items-center justify-center">
+                        <Link to="/" className="flex items-center justify-center gap-3 group w-full">
+                            <div className="relative w-14 h-14 flex items-center justify-center">
                                 <div className="absolute inset-0 bg-primary/20 blur-md rounded-full group-hover:bg-primary/30 transition-all"></div>
                                 <img
                                     src={logoUrl}
                                     alt="ATTO Logo"
                                     className="relative z-10 w-full h-full object-contain filter brightness-110 drop-shadow-[0_0_8px_rgba(59,130,246,0.5)]"
                                 />
-                            </div>
-                            <div className="flex flex-col">
-                                <span className="text-xl font-black text-white tracking-tighter leading-none">
-                                    ATTO<span className="text-primary italic">CORP</span>
-                                </span>
-                                <span className="text-[10px] text-slate-500 font-bold tracking-[0.2em] uppercase">Intelligence</span>
                             </div>
                         </Link>
                     </div>
