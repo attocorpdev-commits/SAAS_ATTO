@@ -64,7 +64,7 @@ export const Sidebar: React.FC = () => {
                     {/* Logo */}
                     <div className="p-6 border-b border-border">
                         <Link to="/" className="flex items-center justify-center gap-3 group w-full">
-                            <div className="relative w-14 h-14 flex items-center justify-center">
+                            <div className="relative w-[100px] h-[100px] flex items-center justify-center">
                                 <div className="absolute inset-0 bg-primary/20 blur-md rounded-full group-hover:bg-primary/30 transition-all"></div>
                                 <img
                                     src={logoUrl}
