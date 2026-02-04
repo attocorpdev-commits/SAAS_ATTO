@@ -4,6 +4,4 @@ dist
 .git
 .gitignore
 .vscode
-Dockerfile
-nginx.conf
 README.md
